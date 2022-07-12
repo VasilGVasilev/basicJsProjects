@@ -26,7 +26,6 @@ body{
 .buttons{
     display:flex;
     flex-wrap: wrap;
-    
     transition: all 0.5s linear;
 
 }
@@ -38,7 +37,27 @@ button{
     transition: all 1s ease;
 }
 
-button:hover{
-    
+button:hover{   
     background-color: blue;
+}
+
+.btn-yellow{
+    background: rgb(245, 146, 62);
+    color: white;
+}
+
+.btn-grey{
+    background: rgb(224, 224, 224);
+}
+
+.btn, .btn-equal, .btn-clear{
+    font-size: 3rem;
+}
+
+.btn-equal{
+    background-color: green;
+}
+
+.btn-clear{
+    background-color: red;
 }
