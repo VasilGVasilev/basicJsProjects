@@ -44,4 +44,6 @@ function addZero(time){
     return time;
 }
 
+// to fix the bug with awaiting 1s when first refreshing
+showTime();
 setInterval(showTime, 1000);
