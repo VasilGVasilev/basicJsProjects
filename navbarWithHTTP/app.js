@@ -2,6 +2,8 @@ const http = require('http');
 const {readFileSync} = require('fs');
 
 // get all files
+// testing minor thing
+
 
 const homePage = readFileSync('./index.html');
 const cssData = readFileSync('./main.css');
