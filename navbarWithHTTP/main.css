@@ -76,5 +76,5 @@
 
 header{
     min-height: 100vh;
-    background: url(./img/header-bcg.jpg)center/cover no-repeat;
+    background: url('headerbcg.jpg')center/cover no-repeat;
 }
